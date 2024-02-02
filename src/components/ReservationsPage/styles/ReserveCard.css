@@ -1,0 +1,12 @@
+.reserve__rating {
+    color: rgb(90, 90, 255);
+    cursor: pointer;
+}
+.reserve__rating:hover {
+    color: blue;
+    text-decoration: underline;
+}
+.reserve__img {
+    width: 100%;
+    max-width: 200px;
+}

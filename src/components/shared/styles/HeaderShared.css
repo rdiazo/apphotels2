@@ -1,0 +1,56 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 95%;
+    border-radius: 0.8em;
+    box-shadow: 0.1em 0.1em 1em #0005;
+    position: fixed;
+    top: 0;
+    left: 2.5%;
+    backdrop-filter: blur(20px);
+}
+.header__title {
+    padding: 0.5em;
+    margin-left: 30px;
+    font-size: 1.9em;
+    transition: transform 100ms ease,
+                text-shadow 100ms ease;
+}
+.header__title>a {
+    color: greenyellow;
+    text-decoration: none;
+    text-shadow: 2px 2px 4px black;
+}
+.header__title:hover {
+    transform: scale(1.05);
+    text-shadow: 0 0 1em #0005;
+}
+.header__span {
+    color: red;
+    text-decoration: none;
+}
+
+.header__span>a {
+    text-decoration: none;
+}
+.header__li {
+    display: inline;
+    padding-right: 35px;
+    text-decoration: none;
+    transition: transform 100ms ease,
+}
+
+.header__li>a {
+    text-decoration: none;
+    color: greenyellow;
+    font-size: 1.5em;
+    text-shadow: 2px 2px 4px black;
+}
+.header__titlef {
+    position: fixed;
+    margin-top: -1.9em;
+    left: 1.5em;
+    color: greenyellow;
+    text-shadow: 2px 2px 4px black;
+}
